@@ -16,7 +16,8 @@ const Projects = () => {
         "Render | Netlify",
       ],
       liveLink: "https://sgpa-calculator-by-ajith.netlify.app/1stsem",
-      sourceLink: "https://github.com/Ajith-M-001/SGPA-frontend",
+      FrontendLink: "https://github.com/Ajith-M-001/SGPA-frontend",
+      BackendLink: "https://github.com/Ajith-M-001/SGPA-backend",
     },
     {
       id: 2,
@@ -30,7 +31,8 @@ const Projects = () => {
         "Render ",
       ],
       liveLink: "https://mernauth-backend-pk1e.onrender.com/",
-      sourceLink: "https://github.com/Ajith-M-001/mern-Auth",
+      FrontendLink: "https://github.com/Ajith-M-001/mern-Auth",
+      BackendLink: "https://github.com/Ajith-M-001/mern-Auth",
     },
     {
       id: 3,
@@ -44,7 +46,8 @@ const Projects = () => {
         "Render",
       ],
       liveLink: "https://todoapp-frontend-h3kz.onrender.com/",
-      sourceLink: "https://github.com/Ajith-M-001/todoApp-backend",
+      FrontendLink: "https://github.com/Ajith-M-001/todoApp-frontend",
+      BackendLink: "https://github.com/Ajith-M-001/todoApp-backend",
     },
   ];
   return (
@@ -54,7 +57,16 @@ const Projects = () => {
       </div>
       <div className="grid lg:grid-cols-3 gap-5 px-5 mt-5 place-items-center lg:place-items-stretch">
         {project.map(
-          ({ id, image, title, desc, stack, liveLink, sourceLink }) => (
+          ({
+            id,
+            image,
+            title,
+            desc,
+            stack,
+            liveLink,
+            FrontendLink,
+            BackendLink,
+          }) => (
             <div
               key={id}
               className="max-w-md flex flex-col justify-between mx-auto p-5 border rounded-md shadow-md"
@@ -72,11 +84,11 @@ const Projects = () => {
                   <li key={index + 1}>🚀 {tech}</li>
                 ))}
               </ul>
-              <div className="flex justify-between my-3">
+              <div className="flex gap-3 text-sm flex-col lg:flex-row text-center justify-between my-3">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-blue-100 text-blue-700 hover:bg-blue-200 px-4 py-2 rounded-sm"
+                  className="bg-green-100 border border-green-200 text-green-700 hover:bg-green-200 px-4 py-2 rounded-sm"
                   href={liveLink}
                 >
                   Live Deployement
@@ -84,10 +96,18 @@ const Projects = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-blue-100 text-blue-700 hover:bg-blue-200 px-4 py-2 rounded-sm"
-                  href={sourceLink}
+                  className="bg-blue-100 border border-blue-200 text-blue-700 hover:bg-blue-200 px-4 py-2 rounded-sm"
+                  href={FrontendLink}
                 >
-                  Source Code
+                  Frontend Code
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-blue-100 border border-blue-200 text-blue-700 hover:bg-blue-200 px-4 py-2 rounded-sm"
+                  href={BackendLink}
+                >
+                  Backend Code
                 </a>
               </div>
             </div>
