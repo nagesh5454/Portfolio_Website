@@ -1,4 +1,4 @@
-import profilepic from "../assets/_39A3394.jpg";
+import profilepic from "../assets/my photo.png";
 import { FaLinkedin, FaGithub, FaInstagramSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { Link } from "react-scroll";
