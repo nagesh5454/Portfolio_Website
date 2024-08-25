@@ -123,8 +123,8 @@
 
 
 import sgap from "../assets/sgpa.png";
-import mernAuth from '../assets/mernauth.png';
-import todoApp from '../assets/todo.png';
+import ecommrece from "../assets/ECommerceWebsite.png";
+import youtubeClone from "../assets/YoutubeClone.png";
 
 const Projects = () => {
   const projects = [
@@ -132,10 +132,10 @@ const Projects = () => {
       id: 1,
       image: sgap,
       title: "Job Portal",
-      desc: "Built a web app with the MERN stack to replace manual SGPA calculation in Excel sheets. Students now enter their marks online and get instant results. This saves time, reduces errors, and improves data management for both students and staff.",
+      desc: "Built a web app with the MERN stack to streamline the job application process. Candidates can now apply for jobs online, track their application status, and receive instant updates. This saves time, reduces errors, and improves data management for both job seekers and employers.",
       stack: [
-        "Node.js | Express.js | MongoDB",
         "Vite + React.js | Tailwind CSS",
+        "Node.js | Express.js | MongoDB",
         "VS Code | Postman",
         "Render | Netlify",
       ],
@@ -144,12 +144,40 @@ const Projects = () => {
     },
     {
       id: 2,
-      image: mernAuth,
-      title: "Instagram Clone",
-      desc: "Secure full-stack app with user registration, login & profile management. Redux & React Router handle state & navigation, while JWTs ensure secure authentication. Firebase stores profile pics & Tailwind CSS keeps it stylish.",
+      image: ecommrece,
+      title: "E-Commerce Website",
+      desc: "Built a web app with the MERN stack to enhance the online shopping experience. Customers can now browse products, make purchases, and receive instant order confirmations. This saves time, reduces errors, and improves inventory management for both customers and store owners.",
       stack: [
+        "Vite + React.js | Tailwind CSS | Redux Toolkit | ",
         "Node.js | Express.js | MongoDB",
-        "Vite + React.js | Tailwind CSS | Redux Toolkit | Firebase Storage",
+        "VS Code | Postman",
+        "Render",
+      ],
+      liveLink: "",//Add Live Link
+      sourceCode: "", // Add Github Source Code Link
+    },
+    {
+      id: 2,
+      image: ecommrece,
+      title: "E-Commerce Website",
+      desc: "Built a web app with the MERN stack to enhance the online shopping experience. Customers can now browse products, make purchases, and receive instant order confirmations. This saves time, reduces errors, and improves inventory management for both customers and store owners.",
+      stack: [
+        "Vite + React.js | Tailwind CSS | Redux Toolkit | ",
+        "Node.js | Express.js | MongoDB",
+        "VS Code | Postman",
+        "Render",
+      ],
+      liveLink: "",//Add Live Link
+      sourceCode: "", // Add Github Source Code Link
+    },
+    {
+      id: 2,
+      image: ecommrece,
+      title: "E-Commerce Website",
+      desc: "Built a web app with the MERN stack to enhance the online shopping experience. Customers can now browse products, make purchases, and receive instant order confirmations. This saves time, reduces errors, and improves inventory management for both customers and store owners.",
+      stack: [
+        "Vite + React.js | Tailwind CSS | Redux Toolkit | ",
+        "Node.js | Express.js | MongoDB",
         "VS Code | Postman",
         "Render",
       ],
@@ -158,17 +186,16 @@ const Projects = () => {
     },
     {
       id: 3,
-      image: todoApp,
-      title: "E-Commerce Website",
-      desc: "Creating a TODO app with the MERN stack, Axios facilitates smooth communication between the frontend and backend, ensuring real-time updates. Featuring CRUD operations, our app offers a comprehensive solution for task management.",
+      image: youtubeClone,
+      title: "Youtube Clone",
+      desc: "Developing a YouTube Clone using React.js and Tailwind CSS, our app offers a responsive and intuitive user interface. Leveraging React.js for dynamic content rendering and Tailwind CSS for sleek design, the clone replicates core YouTube features, providing users with a seamless video browsing and viewing experience.",
       stack: [
-        "Node.js | Express.js | MongoDB",
         "Vite + React.js | Tailwind CSS",
-        "VS Code | Postman",
-        "Render",
+        "VS Code | Git",
+        "Versal",
       ],
-      liveLink: "",//Add Live Link
-      sourceCode: "", // Add Github Source Code Link
+      liveLink: "https://youtubeclone-lilac.vercel.app/",//Add Live Link
+      sourceCode: "https://github.com/nagesh5454/YouTube-Clone", // Add Github Source Code Link
     },
   ];
 
