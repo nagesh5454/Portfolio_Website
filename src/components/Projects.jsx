@@ -125,6 +125,7 @@
 // import sgap from "../assets/sgpa.png";
 import ecommrece from "../assets/ECommerceWebsite.png";
 import youtubeClone from "../assets/YoutubeClone.png";
+import geminAI from "../assets/GeminiAI.png";
 
 const Projects = () => {
   const projects = [
@@ -158,7 +159,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      image: ecommrece,
+      image: geminAI,
       title: "Gemini AI Clone ",
       desc: "Built a web app with the MERN stack to replicate the core functionalities of Gemini AI. Users can now interact with AI-driven tools, automate tasks, and analyze data insights in real-time. This saves time, reduces errors, and enhances decision-making for both individuals and businesses.",
       stack: [
