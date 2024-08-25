@@ -122,7 +122,7 @@
 
 
 
-import sgap from "../assets/sgpa.png";
+// import sgap from "../assets/sgpa.png";
 import ecommrece from "../assets/ECommerceWebsite.png";
 import youtubeClone from "../assets/YoutubeClone.png";
 
@@ -130,7 +130,7 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      image: sgap,
+      image: ecommrece,
       title: "Job Portal",
       desc: "Built a web app with the MERN stack to streamline the job application process. Candidates can now apply for jobs online, track their application status, and receive instant updates. This saves time, reduces errors, and improves data management for both job seekers and employers.",
       stack: [
@@ -159,8 +159,8 @@ const Projects = () => {
     {
       id: 2,
       image: ecommrece,
-      title: "E-Commerce Website",
-      desc: "Built a web app with the MERN stack to enhance the online shopping experience. Customers can now browse products, make purchases, and receive instant order confirmations. This saves time, reduces errors, and improves inventory management for both customers and store owners.",
+      title: "Gemini AI Clone ",
+      desc: "Built a web app with the MERN stack to replicate the core functionalities of Gemini AI. Users can now interact with AI-driven tools, automate tasks, and analyze data insights in real-time. This saves time, reduces errors, and enhances decision-making for both individuals and businesses.",
       stack: [
         "Vite + React.js | Tailwind CSS | Redux Toolkit | ",
         "Node.js | Express.js | MongoDB",
@@ -173,8 +173,8 @@ const Projects = () => {
     {
       id: 2,
       image: ecommrece,
-      title: "E-Commerce Website",
-      desc: "Built a web app with the MERN stack to enhance the online shopping experience. Customers can now browse products, make purchases, and receive instant order confirmations. This saves time, reduces errors, and improves inventory management for both customers and store owners.",
+      title: "ChatApp",
+      desc: "Built a web app with the MERN stack to facilitate real-time communication. Users can now send messages, create chat rooms, and receive instant notifications. This saves time, reduces communication gaps, and improves collaboration for both personal and professional interactions.",
       stack: [
         "Vite + React.js | Tailwind CSS | Redux Toolkit | ",
         "Node.js | Express.js | MongoDB",
