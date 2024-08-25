@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <div className="bg-gray-100 p-4 border-b fixed w-full">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-3xl font-bold">Ajith M</h1>
+        <h1 className="text-3xl font-bold">Nagesh  M</h1>
         <ul className="md:flex hidden">
           {links.map(({ id, name }) => (
             <Link

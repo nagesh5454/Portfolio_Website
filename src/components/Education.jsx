@@ -1,31 +1,30 @@
-import bitlogo from "../assets/bit.png";
-import sabs from "../assets/sabs.png";
-
+import dbatulogo from "../assets/DBATU_Logo.jpeg";
+import mg from "../assets/mahatmaGandhi.jpg"
 const Education = () => {
   const college = [
     {
       id: 1,
-      image: bitlogo,
-      name: "Bangalore Institute of Technology",
-      year: "2021-2023",
-      course: "Master of Computer Application (MCA)",
-      university: "Visvesvaraya Technological University",
+      image: dbatulogo,
+      name: "Dr.Babasaheb Ambedkar Technological University, Lonere - Raigad",
+      year: "2021-2025",
+      course: "Bachelor of Technology(BTech) in IT",
+      university: "Dr. Babasaheb Ambedkar Technological University",
     },
     {
       id: 2,
-      image: sabs,
-      name: "Seshadripuram Academy of Business Studies",
-      year: "2017-2020",
-      course: "Bachelor of Computer Applications (BCA)",
-      university: "Bangalore University",
+      image: mg,
+      name: "Mahatma Gandhi Jr. College of Science Karmala, Solapur",
+      year: "2020-2021",
+      course: "12th Standard",
+      university: "Pune University",
     },
     {
       id: 3,
-      image: sabs,
-      name: "Seshadripuram Independent Pre-University College",
-      year: "2016-2017",
-      course: "PCMC - 2nd Year",
-      university: "Bangalore University",
+      image: mg,
+      name: "Mahatma Gandhi  High School, Karmala",
+      year: "2018-2019",
+      course: "10th Standard",
+      university: "Pune Univarsity",
     },
   ];
   return (

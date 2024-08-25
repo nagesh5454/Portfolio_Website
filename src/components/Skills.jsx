@@ -10,21 +10,26 @@ import expressImage from "../assets/expressjs.png";
 import mongoDBImage from "../assets/mongodb.png";
 import gitImage from "../assets/git.png";
 import githubImage from "../assets/github.png";
+import javaImage from "../assets/Java.png";
+import sqlImage from "../assets/sql.png";
 
 const Skills = () => {
   const skill = [
-    { id: 1, image: htmlImage, name: "html" },
-    { id: 2, image: cssImage, name: "css" },
-    { id: 3, image: jsImage, name: "js" },
-    { id: 4, image: reactImage, name: "reactImage" },
-    { id: 5, image: viteImage, name: "vite" },
-    { id: 6, image: tailwindImage, name: "tailwind" },
-    { id: 7, image: reduxImage, name: "redux" },
-    { id: 8, image: nodeImage, name: "node" },
-    { id: 9, image: expressImage, name: "express" },
-    { id: 10, image: mongoDBImage, name: "mongodb" },
-    { id: 11, image: gitImage, name: "git" },
-    { id: 12, image: githubImage, name: "github" },
+    { id: 1, image: javaImage, name: "Java" },
+    { id: 2, image: gitImage, name: "git" },
+    { id: 3, image: githubImage, name: "github" },
+    { id: 4, image: htmlImage, name: "html" },
+    { id: 5, image: cssImage, name: "css" },
+    { id: 6, image: jsImage, name: "js" },
+    { id: 7, image: reactImage, name: "reactImage" },
+    { id: 8, image: viteImage, name: "vite" },
+    { id: 9, image: tailwindImage, name: "tailwind" },
+    { id: 10, image: reduxImage, name: "redux" },
+    { id: 11, image: nodeImage, name: "node" },
+    { id: 12, image: expressImage, name: "express" },
+    { id: 13, image: mongoDBImage, name: "mongodb" },
+    { id: 13, image: sqlImage, name: "SQL" },
+    
   ];
   return (
     <div id="Skills" className="bg-yellow-50 py-10">

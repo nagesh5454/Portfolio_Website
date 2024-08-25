@@ -1,4 +1,4 @@
-import profilepic from "../assets/my photo.png";
+import profilepic from "../assets/myphotoN.jpg";
 import { FaLinkedin, FaGithub, FaInstagramSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { Link } from "react-scroll";
@@ -19,7 +19,7 @@ const Home = () => {
             <p>
               My name is,{" "}
               <span className="text-2xl lg:text-4xl font-semibold">
-                Ajith M
+                Nagesh Mane
               </span>
             </p>
             <p className="text-justify px-5 lg:px-0 ">
@@ -37,7 +37,7 @@ const Home = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-black"
-              href="https://www.linkedin.com/in/ajith-m-8273651a1/"
+              href="https://www.linkedin.com/in/nagesh-mane/"
             >
               <FaLinkedin />
             </a>
@@ -45,7 +45,7 @@ const Home = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-black"
-              href="https://github.com/Ajith-M-001"
+              href="https://github.com/nagesh5454"
             >
               <FaGithub />
             </a>
@@ -53,7 +53,7 @@ const Home = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-black"
-              href="https://www.instagram.com/ajithm31/"
+              href="https://www.instagram.com/nageshmane.14606/"
             >
               <FaInstagramSquare />
             </a>
@@ -69,7 +69,7 @@ const Home = () => {
             </Link>
             <a
               className="bg-yellow-500 hover:opacity-80 px-4 py-2 rounded-sm text-white font-semibold flex items-center "
-              href="/AJITH M resume.pdf"
+              href="/public/Nageshmane_Resume.pdf"
               download={true}
             >
               Resume{" "}
