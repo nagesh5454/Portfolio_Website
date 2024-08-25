@@ -27,7 +27,7 @@ const Home = () => {
               <span className="text-xl md:text-2xl font-semibold">
                 Software developer,
               </span>{" "}
-              with a solid understanding of Data Structures and Algorithms, and equipped with basic skills in MongoDB, Express.js, React.js, and Node.js. I am seeking opportunities to gain practical experience and grow within the field of web development.
+              with a solid understanding of Data Structures and Algorithms in Java, and equipped with basic skills in MongoDB, Express.js, React.js, and Node.js. I am seeking opportunities to gain practical experience and grow within the field of web development.
 
             </p>
           </div>
