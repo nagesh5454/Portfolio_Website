@@ -68,7 +68,7 @@ const Home = () => {
             </Link>
             <a
               className="bg-yellow-500 hover:opacity-80 px-4 py-2 rounded-sm text-white font-semibold flex items-center "
-              href="/public/Nageshmane_Resume.pdf"
+              href="/public/Nagesh_Resume.pdf"
               download={true}
             >
               Resume{" "}
