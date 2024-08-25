@@ -25,11 +25,10 @@ const Home = () => {
             <p className="text-justify px-5 lg:px-0 ">
               I&apos;m an aspiring{" "}
               <span className="text-xl md:text-2xl font-semibold">
-                MERN stack developer,
+                Software developer,
               </span>{" "}
-              equipped with basic skills in MongoDB, Express.js, React.js, and
-              Node.js, seeking opportunities to gain practical experience and
-              grow within the field of web development.
+              with a solid understanding of Data Structures and Algorithms, and equipped with basic skills in MongoDB, Express.js, React.js, and Node.js. I am seeking opportunities to gain practical experience and grow within the field of web development.
+
             </p>
           </div>
           <div className="flex justify-center my-2 text-2xl space-x-3 text-gray-700 lg:justify-start lg:text-3xl">

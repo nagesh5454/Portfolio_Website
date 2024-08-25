@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="px-5">
           <form
             method="POST"
-            action="https://getform.io/f/penLpEb7"
+            action="https://getform.io/f/bpjmyelb"
             className="max-w-md mx-auto border bg-white rounded-md shadow-md p-5 my-5 "
           >
             <div className="my-2">

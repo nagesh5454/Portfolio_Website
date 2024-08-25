@@ -47,11 +47,12 @@ const About = () => {
               Tech Stack:
             </div>
             <ul className="text-left my-3 text-lg">
-              <li>🚀 Node.js | Express.js | mongoDB</li>
               <li>🌐 Vite + React.js | tailwind CSS</li>
+              <li>🚀 SQL | Node.js | Express.js | mongoDB</li>
+              <li>🗳️ Git | GitHub</li>
               <li>🔧 Vs Code | Postman</li>
               <li>☁️ Render | Vercel</li>
-              <li>🗳️ Git | GitHub</li>
+              
             </ul>
           </div>
         </div>
