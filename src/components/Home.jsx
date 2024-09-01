@@ -2,6 +2,7 @@ import profilepic from "../assets/myphotoN.jpg";
 import { FaLinkedin, FaGithub, FaInstagramSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { Link } from "react-scroll";
+import { SiGeeksforgeeks,SiLeetcode } from "react-icons/si";
 const Home = () => {
   return (
     <div id="Home" className="py-10 bg-gray-50 ">
@@ -52,9 +53,26 @@ const Home = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-black"
+              href="https://www.geeksforgeeks.org/user/nageshmane20062003/"
+            >
+              <SiGeeksforgeeks />
+            </a>
+            
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-black"
+              href="https://leetcode.com/u/nageshmane_14606/"
+            >
+              <SiLeetcode />
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-black"
               href="https://www.instagram.com/nageshmane.14606/"
             >
-              <FaInstagramSquare />
+              <FaInstagramSquare/>
             </a>
           </div>
           <div className="flex space-x-3 justify-center lg:justify-start">

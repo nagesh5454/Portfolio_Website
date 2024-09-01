@@ -24,7 +24,7 @@ const About = () => {
             <ul className="text-left my-3 text-lg">
               <li>📚 Academic Studies</li>
               <li>🎓 Skill Development</li>
-              <li>🏆 Data Structure and Algorithm</li>
+              <li>🏆 Data Structure and Algorithm in Java</li>
               <li>🚀 Development & Coding</li>
               <li>🤝 Networking</li>
               
@@ -47,10 +47,11 @@ const About = () => {
               Tech Stack:
             </div>
             <ul className="text-left my-3 text-lg">
+              <li>🚀 HTML5 | CSS3 | JavaScript | Figma </li>
               <li>🌐 Vite + React.js | tailwind CSS</li>
               <li>🚀 SQL | Node.js | Express.js | mongoDB</li>
               <li>🗳️ Git | GitHub</li>
-              <li>🔧 Vs Code | Postman</li>
+              <li>🔧 Vs Code | IntelliJ IDEA  | Postman </li>
               <li>☁️ Render | Vercel</li>
               
             </ul>
