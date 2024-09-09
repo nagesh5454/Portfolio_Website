@@ -126,28 +126,44 @@
 import ecommrece from "../assets/ECommerceWebsite.png";
 import youtubeClone from "../assets/YoutubeClone.png";
 import geminAI from "../assets/GeminiAI.png";
+import instaClone from "../assets/InstagramClone.png"
+import jobportal from "../assets/JobPortal.png";
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
-      image: ecommrece,
+      image: jobportal,
       title: "Job Portal",
-      desc: "Built a web app with the MERN stack to streamline the job application process. Candidates can now apply for jobs online, track their application status, and receive instant updates. This saves time, reduces errors, and improves data management for both job seekers and employers.",
+      desc: "I built a web app using the MERN stack to streamline the job application process for both candidates and recruiters. Candidates can easily apply for jobs, track their application status, and receive instant updates, improving convenience and reducing errors. On the admin side, recruiters can create and post job openings, as well as manage applications by accepting or rejecting candidates, which enhances data management and saves time for both job seekers and employers.",
       stack: [
         "Vite + React.js | Tailwind CSS",
         "Node.js | Express.js | MongoDB",
         "VS Code | Postman",
-        "Render | Netlify",
+        "Render ",
       ],
       liveLink: "",//Add Live Link
-      sourceCode: "", // Add Github Source Code Link
+      sourceCode: "https://github.com/nagesh5454/JobPortal", // Add Github Source Code Link
+    },
+    {
+      id: 2,
+      image: instaClone,
+      title: "Instagram Clone",
+      desc: "Built a web app with the MERN stack to enhance the social media experience. Users can now create accounts, share posts, like and comment on content, and follow other users. This fosters seamless interaction, instant content sharing, and a more engaging social media environment for users.",
+      stack: [
+        "Vite + React.js | Tailwind CSS | Redux Toolkit | ",
+        "Node.js | Express.js | MongoDB",
+        "VS Code | Postman",
+        "Render",
+      ],
+      liveLink: "https://instagram-clone-a9ip.onrender.com/",//Add Live Link
+      sourceCode: "https://github.com/nagesh5454/Instagram_Clone", // Add Github Source Code Link
     },
     {
       id: 2,
       image: ecommrece,
-      title: "E-Commerce Website",
-      desc: "Built a web app with the MERN stack to enhance the online shopping experience. Customers can now browse products, make purchases, and receive instant order confirmations. This saves time, reduces errors, and improves inventory management for both customers and store owners.",
+      title: "ECommerce Website",
+      desc: "Developed a web app using the MERN stack to elevate the online shopping experience. Users can seamlessly browse through products, make secure purchases, and receive immediate order confirmations. This approach not only saves time and minimizes errors but also enhances inventory management for store owners, ensuring a more efficient and satisfying experience for both customers and businesses.",
       stack: [
         "Vite + React.js | Tailwind CSS | Redux Toolkit | ",
         "Node.js | Express.js | MongoDB",
@@ -169,24 +185,11 @@ const Projects = () => {
         "Render",
       ],
       liveLink: "",//Add Live Link
-      sourceCode: "", // Add Github Source Code Link
-    },
+      sourceCode: "https://github.com/nagesh5454/Gemini-Clone", // Add Github Source Code Link
+    }
+   ,
     {
       id: 2,
-      image: ecommrece,
-      title: "ChatApp",
-      desc: "Built a web app with the MERN stack to facilitate real-time communication. Users can now send messages, create chat rooms, and receive instant notifications. This saves time, reduces communication gaps, and improves collaboration for both personal and professional interactions.",
-      stack: [
-        "Vite + React.js | Tailwind CSS | Redux Toolkit | ",
-        "Node.js | Express.js | MongoDB",
-        "VS Code | Postman",
-        "Render",
-      ],
-      liveLink: "",//Add Live Link
-      sourceCode: "", // Add Github Source Code Link
-    },
-    {
-      id: 3,
       image: youtubeClone,
       title: "Youtube Clone",
       desc: "Developing a YouTube Clone using React.js and Tailwind CSS, our app offers a responsive and intuitive user interface. Leveraging React.js for dynamic content rendering and Tailwind CSS for sleek design, the clone replicates core YouTube features, providing users with a seamless video browsing and viewing experience.",
