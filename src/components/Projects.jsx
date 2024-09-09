@@ -142,7 +142,7 @@ const Projects = () => {
         "VS Code | Postman",
         "Render ",
       ],
-      liveLink: "",//Add Live Link
+      liveLink: "https://jobportal-9amg.onrender.com/",//Add Live Link
       sourceCode: "https://github.com/nagesh5454/JobPortal", // Add Github Source Code Link
     },
     {
