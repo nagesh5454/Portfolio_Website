@@ -128,6 +128,7 @@ import youtubeClone from "../assets/YoutubeClone.png";
 import geminAI from "../assets/GeminiAI.png";
 import instaClone from "../assets/InstagramClone.png"
 import jobportal from "../assets/JobPortal.png";
+import cpu from "../assets/CPU.png";
 
 const Projects = () => {
   const projects = [
@@ -201,6 +202,20 @@ const Projects = () => {
       liveLink: "https://youtubeclone-lilac.vercel.app/",//Add Live Link
       sourceCode: "https://github.com/nagesh5454/YouTube-Clone", // Add Github Source Code Link
     },
+    {
+      id: 2,
+      image: cpu,
+      title: "CPU Scheduling Algorithm Visualizer",
+      desc: "Developed a web app using the MERN stack to visualize CPU scheduling algorithms. Users can seamlessly select and simulate different algorithms such as FCFS, SJF, and Round Robin, viewing detailed Gantt charts and turnaround times for processes. This approach enhances understanding by providing real-time feedback, minimizing errors in interpretation, and offering a more interactive learning experience. ",
+      stack: [
+        "HTML |  CSS | Javascript | Algorithms| BootStrap",
+        " FCFS, SJF, RRS, LJF, PSA, LRTF, SRFT",
+        "VS Code",
+        "Versal",
+      ],
+      liveLink: "https://cpuschedulingalgorithmvisualiser.vercel.app/",//Add Live Link
+      sourceCode: "https://github.com/nagesh5454/CPU-SCHEDULING-ALGORITHM-VISUALISER", // Add Github Source Code Link
+    }
   ];
 
   return (
