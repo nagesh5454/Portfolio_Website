@@ -86,7 +86,7 @@ const Home = () => {
             </Link>
             <a
               className="bg-yellow-500 hover:opacity-80 px-4 py-2 rounded-sm text-white font-semibold flex items-center "
-              href="https://drive.google.com/file/d/12aRltbhZt47qm_tzgBTvWICGvbzhzmOw/view?usp=sharing"
+              href="https://drive.google.com/file/d/1qWGI1NApumRcqiWaBjbtIi0diM6B3lFz/view?usp=sharing"
               download={true}
             >
               Resume{" "}
