@@ -2,7 +2,8 @@ import profilepic from "../assets/myphotoN.jpg";
 import { FaLinkedin, FaGithub, FaInstagramSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { Link } from "react-scroll";
-import { SiGeeksforgeeks,SiLeetcode } from "react-icons/si";
+import { SiGeeksforgeeks, SiLeetcode } from "react-icons/si";
+
 const Home = () => {
   return (
     <div id="Home" className="py-10 bg-gray-50 ">
@@ -29,7 +30,6 @@ const Home = () => {
                 Software developer,
               </span>{" "}
               with a solid understanding of Data Structures and Algorithms in Java, and equipped with basic skills in MongoDB, Express.js, React.js, and Node.js. I am seeking opportunities to gain practical experience and grow within the field of web development.
-
             </p>
           </div>
           <div className="flex justify-center my-2 text-2xl space-x-3 text-gray-700 lg:justify-start lg:text-3xl">
@@ -57,7 +57,6 @@ const Home = () => {
             >
               <SiGeeksforgeeks />
             </a>
-            
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -72,7 +71,7 @@ const Home = () => {
               className="hover:text-black"
               href="https://www.instagram.com/nageshmane.14606/"
             >
-              <FaInstagramSquare/>
+              <FaInstagramSquare />
             </a>
           </div>
           <div className="flex space-x-3 justify-center lg:justify-start">
@@ -85,9 +84,9 @@ const Home = () => {
               Contact Me
             </Link>
             <a
-              className="bg-yellow-500 hover:opacity-80 px-4 py-2 rounded-sm text-white font-semibold flex items-center "
-              href="https://drive.google.com/file/d/1qWGI1NApumRcqiWaBjbtIi0diM6B3lFz/view?usp=sharing"
-              download={true}
+              className="bg-yellow-500 hover:opacity-80 px-4 py-2 rounded-sm text-white font-semibold flex items-center"
+              href="/resume.pdf"
+              download="Nageshmane_Resume_Latest.pdf"
             >
               Resume{" "}
               <span className="text-2xl ml-4">
