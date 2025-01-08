@@ -34,7 +34,7 @@ const Projects = () => {
         "VS Code | Postman",
         "Render",
       ],
-      liveLink: "https://learning-management-system-live-link.com/", // Add Live Link
+      liveLink: "https://lms-gtai.onrender.com/", // Add Live Link
       sourceCode: "https://github.com/nagesh5454/LMS", // Add Github Source Code Link
     },
     {

@@ -29,7 +29,10 @@ const Home = () => {
               <span className="text-xl md:text-2xl font-semibold">
                 Software developer,
               </span>{" "}
-              with a solid understanding of Data Structures and Algorithms in Java, and equipped with  skills in MongoDB, Express.js, React.js, and Node.js. I am seeking opportunities to gain practical experience and grow within the field of web development.
+              with a solid understanding of Data Structures and Algorithms in
+              Java, and equipped with skills in MongoDB, Express.js, React.js,
+              and Node.js. I am seeking opportunities to gain practical
+              experience and grow within the field of web development.
             </p>
           </div>
           <div className="flex justify-center my-2 text-2xl space-x-3 text-gray-700 lg:justify-start lg:text-3xl">
@@ -85,8 +88,9 @@ const Home = () => {
             </Link>
             <a
               className="bg-yellow-500 hover:opacity-80 px-4 py-2 rounded-sm text-white font-semibold flex items-center"
-              href="Nageshmane_Resume_Latest.pdf"
-              download="Nageshmane_Resume_Latest.pdf"
+              href="https://drive.google.com/file/d/1HfiwEXHa2CzKSBszensVqswrFOIpbrS4/view?usp=sharing" // Replace 'your-file-id' with the actual file ID from your Google Drive link
+              target="_blank" // Opens the link in a new tab
+              rel="noopener noreferrer" // Ensures security for external links
             >
               Resume{" "}
               <span className="text-2xl ml-4">
