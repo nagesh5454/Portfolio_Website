@@ -85,7 +85,7 @@ const Home = () => {
             </Link>
             <a
               className="bg-yellow-500 hover:opacity-80 px-4 py-2 rounded-sm text-white font-semibold flex items-center"
-              href="https://drive.google.com/file/d/1hGRw5tZg4Ue6r3TpRaerfHSLkxH3WdaT/view?usp=sharing" // Replace 'your-file-id' with the actual file ID from your Google Drive link
+              href="https://drive.google.com/file/d/11Iu87tH54Z43AxGfF99LcJzUYs_cXHs3/view?usp=sharing" // Replace 'your-file-id' with the actual file ID from your Google Drive link
               target="_blank" // Opens the link in a new tab
               rel="noopener noreferrer" // Ensures security for external links
             >
