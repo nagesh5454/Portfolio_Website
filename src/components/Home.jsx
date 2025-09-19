@@ -1,4 +1,4 @@
-import profilepic from "../assets/myphotoN.jpg";
+import profilepic from "../assets/photos.jpg";
 import { FaLinkedin, FaGithub, FaInstagramSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { Link } from "react-scroll";
@@ -25,14 +25,11 @@ const Home = () => {
               </span>
             </p>
             <p className="text-justify px-5 lg:px-0 ">
-              I&apos;m an aspiring{" "}
+              I&apos;m an Passionate{" "}
               <span className="text-xl md:text-2xl font-semibold">
                 Software developer,
               </span>{" "}
-              with a solid understanding of Data Structures and Algorithms in
-              Java, and equipped with skills in MongoDB, Express.js, React.js,
-              and Node.js. I am seeking opportunities to gain practical
-              experience and grow within the field of web development.
+              With strong knowledge of Full-Stack Development using MERN and Java Full-Stack, and equipped with skills in MongoDB, Express.js, React.js, and Node.js, I possess expertise in building scalable software applications. I am seeking opportunities to gain practical experience and grow within the field of software development.
             </p>
           </div>
           <div className="flex justify-center my-2 text-2xl space-x-3 text-gray-700 lg:justify-start lg:text-3xl">
@@ -88,7 +85,7 @@ const Home = () => {
             </Link>
             <a
               className="bg-yellow-500 hover:opacity-80 px-4 py-2 rounded-sm text-white font-semibold flex items-center"
-              href="https://drive.google.com/file/d/1HfiwEXHa2CzKSBszensVqswrFOIpbrS4/view?usp=sharing" // Replace 'your-file-id' with the actual file ID from your Google Drive link
+              href="https://drive.google.com/file/d/14q7imnlzjN_KgCcYXen_0Ex3bey2LuNh/view?usp=sharing" // Replace 'your-file-id' with the actual file ID from your Google Drive link
               target="_blank" // Opens the link in a new tab
               rel="noopener noreferrer" // Ensures security for external links
             >

@@ -7,8 +7,8 @@ const Education = () => {
       image: dbatulogo,
       name: "Dr.Babasaheb Ambedkar Technological University, Lonere - Raigad",
       year: "2021-2025",
-      CGPA:" 7.7",
-      course: "Bachelor of Technology(BTech) in IT",
+      CGPA:" 7.87",
+      course: "BTech in Information Technology",
       university: "Dr. Babasaheb Ambedkar Technological University",
     },
     {

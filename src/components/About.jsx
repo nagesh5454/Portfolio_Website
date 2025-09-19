@@ -24,8 +24,8 @@ const About = () => {
             <ul className="text-left my-3 text-lg">
               <li>📚 Academic Studies</li>
               <li>🎓 Skill Development</li>
-              <li>🏆 Data Structure and Algorithm in Java</li>
-              <li>🚀 Development & Coding</li>
+              <li>🏆 Fullstack Software Development</li>
+              <li>🚀 Data Structure and Algorithm in Java</li>
               <li>🤝 Networking</li>
               
       
